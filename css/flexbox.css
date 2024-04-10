@@ -235,7 +235,6 @@ header{
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap:0.5em;
   }
   .services-left{
     flex:1 1 0;
