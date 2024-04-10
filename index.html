@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- This portion of code is drawn from web.dev/i18n/en/responsive-web-design-basics/ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <title>WAX DOG SOUND LAB</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+ 
+  </head>
+
+  <body>
+    <div class="waxdogslider">
+      <div class="waxdoglist">
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+        <p class="waxdog">WAX DOG SOUND LAB</p> 
+      </div>
+    </div>
+    
+    <header class="body-box">
+      
+        <img src="./img/header.jpg">
+        <div class="header-textbox">
+          <div class="header-left">
+            <h2>WAX DOG</h2>
+            <h1>SOUND</h1>
+            <h1 class="LAB-text">LAB</h1>
+          </div>
+          
+          <div class="header-right">
+            <h4>Recording studio and gear rentals</h4>
+            <h5>West Vancouver</h5>
+          </div>
+        </div>
+        
+ 
+      
+    </header>
+
+    <div class="body-box">
+      <!-- intro -->
+      <div id="Services" class="services-container">
+        <div class="services-left">
+          <h3 class="no-line">About</h3>
+
+          <p class="break-width">WAX DOG SOUND LAB is a recording studio based in West Vancouver, BC. The studio features a large space 
+            that is sound proofed for recording and fitted with a wide variety of instruments and microphones for rent 
+            at an extra charge.</p>
+
+          <h3 class="no-line">Services</h3>
+    
+            <div class="row-three">
+              <div class="item-three">
+                <h5>Recording</h5>
+                <h6>30$/hr, min 1 hour</h6>
+                <p>Includes:</p>
+                <ul>
+                  <li>Recording engineer</li>
+                  <li>Use of microphones</li>
+                  <li>Use of outboard gear</li>
+                  <li>16 input simultaneous recording into pro tools</li>
+                  <li>Comping (on studio time with artists)</li>
+                  <li>Use of mapex house kit upon request</li>
+                </ul>
+              </div>
+              <div class="item-three">
+                <h5>Gear Rental</h5>
+                <h6>Prices vary per session, check gear section.</h6>
+                <p>Rent out pieces from my personal collection, including a DW drum kit, a grand piano, guitars, 
+                  synthesizers, amps, and effects pedals.
+                  Details can be found below.</p>
+              </div>
+              <div class="item-three">
+                <h5>Simple Mix, Edit, Clean</h5>
+                <h6>40$ flat rate, or on studio time with artists</h6>
+                <p>Includes:</p>
+                <ul>
+                  <li>A basic simple live off the floor sounding mix</li>
+                  <li> Compression, gates and EQ and leveling for cleaning purposes.</li>
+                  <li>Does NOT include effects like reverb, delay, saturation, ect.</li>
+                  <li>One revision mix upon delivery(addition revisions 15$ each)</li>
+                </ul>
+              </div>
+          </div>
+           
+        </div>
+        <div class="services-right" >
+          <img class="drum-image" src="./img/Services.jpg">
+        </div>
+      </div>
+
+      <!-- <hr> -->
+
+      <div id="Inquiries" class="row-container">
+        <h3><span>Inquiries</span></h3>
+        <div class="notes-container"> 
+          <div class="notes-left">
+            
+            <p>To book the studio or ask questions, please contact Dayton Bowen aka WAX DOG by submitting the form below. </p>
+            <form id="fcf-form-id" method="post" action="contact-form-process.php" class="form-container">
+          
+              <div class="fcf-form-group">
+                  <label for="Name" >Your name</label>
+                  <input type="text" id="Name" name="Name" required>
+              </div>
+      
+              <div >
+                  <label for="Email" >Your email address</label>
+                  <input type="email" id="Email" name="Email"  required>
+              </div>
+      
+              <div >
+                  <label for="Message" >Your message</label>
+                  <textarea id="Message" name="Message" rows="6" maxlength="3000" required></textarea>
+              </div>
+    
+              <button type="submit" id="fcf-button" >Send Message</button>
+            </form>
+          </div>
+  
+          <div class="notes-right" >
+            <div class="drum-image-wrapper">
+              <img class="drum-image" src="./img/phone2.jpg">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- <hr> -->
+      
+      <div id="Notes" class="row-container">
+        <h3><span>Studio Notes</span></h3>
+        <div class="notes-container">
+
+          <div class="notes-left">
+
+            <!-- <h4>Studio Notes</h4> -->
+            <p>Delivery</p>
+            <p>I can deliver individual stems, all individual takes, the entire pro tools session, and/or a bounced mix.
+              Mixing and mastering are not included in my services. I can do a simple mix for 40$(details listed above).</p>
+            <p>Payment</p>
+            <p>A down payment of 1 hour(30$) + 50% of instrument rentals is required. 
+              The remaining portion is to be payed at the end of the session. 
+              I accept cash, e-transfer, or card.</p>
+            <p>Location</p>
+            <p>If you intend to record multiple days in a week you're welcome to leave your gear at the studio.
+              The property is secured with alarms and security cameras.
+              There is also always someone present on the property.</p>
+          </div>
+
+          <div class="notes-right" >
+            <div class="drum-image-wrapper">
+              <img  class="drum-image" src="./img/C8C4A902-0228-4374-8CF6-A9F4127E7436.jpg">
+            </div>
+            
+          </div>
+
+        </div>
+        
+      </div>
+      
+     
+      <!-- Mics -->
+      
+      <div class="row-container">
+        <h3><span>Mics</span></h3>
+        <h4>Standard</h4>
+        <div class="mic-gallery">
+          <div class="gallery-img">
+            <img class="gallery-image" src="./img/ShureSM58x2.jpg">
+            <p>Shure SM58 x2</p>
+          </div>
+          <div class="gallery-img">
+            <img class="gallery-image" src="./img/ShureSM57x3.jpg">
+            <p>Shure SM57 x3</p>
+          </div>
+          <div class="gallery-img">
+            <img class="gallery-image" src="./img/SennheiserE902.jpg">
+            <p>Sennheiser E902</p>
+          </div>
+          <div class="gallery-img">
+            <img class="gallery-image" src="./img/SennheiserE614x2.jpg">
+            <p>Sennheiser E614 x2</p>
+          </div>
+          <div class="gallery-img">
+            <img class="gallery-image" src="./img/Sennheisere609.jpg">
+            <p>Sennheiser e609</p>
+          </div>
+          <div class="gallery-img">
+            <img class="gallery-image" src="./img/AKGP220.jpg">
+            <p>AKG P220</p>
+          </div>
+        </div>
+        <h4>Vintage</h4>
+        <div class="mic-gallery">
+          <div class="gallery-img">
+            <img src="./img/Altec685A.jpg" >
+            <p>Altec 685A</p>
+          </div>
+          <div class="gallery-img">
+            <img src="./img/ShureMonoplex737Ae.jpg">
+            <p>Shure Monoplex 737Ae</p>
+          </div>
+          <div class="gallery-img">
+            <img src="./img/Realistic33-1070.jpg">
+            <p>Realistic 33-1070</p>
+          </div>
+          <div class="gallery-img">
+            <img src="./img/Shure518SB.jpg">
+            <p>Shure 518SB</p>
+          </div>
+          <div class="gallery-img">
+            <img src="./img/ShureRS25.jpg">
+            <p>Shure RS25</p>
+          </div>
+        </div>
+      </div>
+    
+    <!-- Outboard gear -->
+      <div class="row-container">
+        <h3><span>Outboard Gear</span></h3>
+        <div class="mic-gallery">
+          <div class="gallery-img">
+            <img src="./img/PresonusFirestudioProject.jpg" >
+            <h4>Pre Sonus Firestudio Project</h4>
+            <ul>
+              <li>2x 8 input audio interfaces for 16 total inputs</li>
+              <li>Clean pre amps</li>
+              <li>4 distinct outputs for individual mixes during live recording</li>
+            </ul>
+          </div>
+          <div class="gallery-img">
+            <img src="./img/ARTVoiceChannel.jpg">
+            <h4>ART Voice Channel</h4>
+            <ul>
+              <li>Tube preamp and channel strip</li>
+              <li>Designed for vocals but sounds good on everything</li>
+              <li>Warm and beautifully transparent</li>
+              <li>Has a compressor, de-esser, gate, expander, and 4 band eq</li>
+            </ul>
+          </div>
+          <div class="gallery-img">
+            <img src="./img/NeptuneGraphicEQ.jpg">
+            <h4>Vintage Neptune Graphic EQ</h4>
+            <ul>
+              <li>Very dirty sounding</li>
+              <li>Can be used as a “lofi box” or to add some grime to a vocal</li>
+            </ul>
+          </div>
+          <div class="gallery-img">
+            <img src="./img/ArtMX822Mixer.jpg">
+            <h4>Art MX822 Mixer</h4>
+            <ul>
+              <li>8 channel mixer</li>
+              <li>Useful if you’ve somehow got too many inputs for the interface</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+
+     <!-- drumps -->
+      <div class="row-container">
+        <h3><span>Drums</span></h3>
+        <div class="drums-container">
+            <div class="drums-left">
+              <div class="row-box-item">
+                <h4>House DW KIT</h4>
+                <h6>$30 / Session (pictured)</h6>
+                <p>Inlcudes:</p>
+                <ul>
+                  <li>22” Kick</li>
+                  <li>13” Rack Tom</li>
+                  <li>16” Floor Tom</li>
+                  <li>14” x 6” Ludwig Snare</li>
+                  <li>Hardware</li>
+                </ul>
+                <p>Pictured cymbals not included. Mapex Kit cymbals can be used.</p>
+              </div>
+              <div class="row-box-item">
+                <h4>House Mapex kit</h4>
+                <h6>Included (not pictured) </h6>
+                <p>Includes:</p>
+                <ul>
+                  <li>Kick</li>
+                  <li>2 x Rack Tom</li>
+                  <li>Floor Tom</li>
+                  <li>Mapex Snare</li>
+                  <li>Hardware</li>
+                  <li>13” Sabian Hi Hats</li>
+                  <li>16” Paiste 302</li>
+                  <li>16” Zildjian Planet Z</li>
+                  <li>16” Zildjian Dark Thin Crash(Cracked)</li>
+                </ul>
+              </div>
+          </div>
+          
+          <div class="drums-right">
+            <div class="drum-image-wrapper1">
+              <img class="drum-image" src="./img/DSCF9363.jpg">
+            </div>
+            <div class="drum-image-wrapper2">
+              <img class="drum-image" src="./img/DSCF9496-2.jpg">
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- end of drums -->
+
+    <!-- Guitars & Piano -->
+    <div class="row-container">
+      <h3><span>Guitars & Piano</span></h3>
+      <div class="notes-container">
+
+        <div class="notes-right">
+          <div class="drum-image-wrapper" >
+            <img class="drum-image" src="./img/DSCF9388.jpg">
+          </div>
+        </div>
+        
+
+        <div class="guitars-right">
+
+          <div class="notes-right">
+
+            <div class="row-box-item">
+              <h4>Baby Grand Piano</h4>
+              <h6>$20 / Session (pictured)</h6>
+              <p>Willis & CO</p>
+              <p>Tuned September 2023</p>
+            </div>
+            <div class="row-box-item">
+              <h4>Synthesizers</h4>
+              <h6>$15 / Session</h6>
+              <ul>
+                <li>Korg Minilogue XD</li>
+                <li>Korg WaveState</li>
+                <li>Korg MS-20 Mini</li>
+              </ul>
+            </div>
+
+          </div>
+          
+          <div class="notes-right">
+
+            <div class="row-box-item">
+              <h4>Guitar rack</h4>
+              <h6>$15 / Session </h6>
+              <ul>
+                <li>Epiphone Thunderbird Bass</li>
+                <li>Danelectro Dano Pro 2012</li>
+                <li>Squire Baritone Telecaster</li>
+                <li>Yamaha 12 string Acoustic</li>
+              </ul>
+            </div>
+            <div class="row-box-item">
+              <h4>House DW KIT</h4>
+              <h6>$30 / Session (pictured)</h6>
+              <p>Inlcudes:</p>
+              <ul>
+                <li>Yorkville Bass Master 400</li>
+                <li>Fender Ultrachorus</li>
+                <li>Walrus Audio Ages</li>
+                <li>Boss Super Chorus</li>
+                <li>Dreadbox Disorder Fuzz</li>
+                <li>Walrus Audio Arp-87</li>
+                <li>JHS Pulp n peel v4</li>
+                <li>Walrus Audio Melee</li>
+                <li>Digitech Bass Whammy</li>
+                <li>Boss Bass Overdrive</li>
+                <li>MXR Micro Amp</li>
+                <li>Eventide Space Reverb</li>
+              </ul>
+            </div>
+
+          </div>
+          
+          
+        </div>
+
+
+      </div>
+
+    </div>
+    
+    <footer>
+      <p><a href="mailto:waxdogsoundlab@gmail.com">waxdogsoundlab@gmail.com</a></p>
+    </footer>
+  </div>
+  
+  </body>
+
+</html>

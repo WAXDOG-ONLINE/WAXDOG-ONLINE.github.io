@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+header{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.form-container{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap:0.8em;
+}
+
+.row-container{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  
+  gap:1.5em;
+}
+
+.body-box{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+  
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+  
+  gap:2em;
+
+  padding-left:3vw;
+  padding-right: 3vw;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.mic-gallery{
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, calc(6em + 15vw));
+  justify-content: center;
+  grid-gap: 1em;
+}
+
+.services-container{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  
+  gap:2em;
+}
+
+.services-left{
+  flex:3 1 0;
+
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  
+  gap: 1em;
+}
+
+.services-right{
+  flex: 1 1 0;
+  margin:auto;
+}
+
+
+.row-three{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  
+  width:100%;
+  gap: 1em;
+
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  
+  justify-content: center;
+
+  height:fit-content;
+  align-items: stretch;
+
+}
+
+.drums-container{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap:2em;
+}
+
+.notes-container{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap:2em;
+}
+
+.drums-left{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  flex:1 1 0;
+  gap:1em;
+}
+
+.drum-image{
+  border-radius: 0.5em;
+  height: auto;
+  width: 100%;
+}
+
+.drum-image-wrapper1{
+  flex: 1.15;
+}
+
+.drum-image-wrapper2{
+  flex: 0.666;
+}
+
+.drums-right{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  
+  flex: 1.5 1 0;
+  gap:1em;
+}
+
+.notes-right{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  
+  flex: 1 1 0;
+  gap:1em;
+}
+
+.notes-left{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  flex:1.5 1 0;
+  gap:1em;
+  
+}
+
+.guitars-right{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  
+  flex:1.5 1 0;
+  gap:1em;
+}
+
+
+.row-box-item {
+  flex: 1 1 0;
+}
+
+@media screen and (max-width:70em){
+  .row-three{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap:0.5em;
+  }
+  .services-left{
+    flex:1 1 0;
+  }
+  .break-width{
+    width:200%;
+  }
+  .services-right{
+    margin-bottom: 0;
+  }
+  .services-right img{
+    max-width:30em;
+  }
+  
+}
+
+@media screen and (max-width:45em){
+  .services-container{
+    -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  }
+  .break-width{
+    width:100%;
+  }
+  .services-right{
+    padding: 0em 2em 0em 2em;
+  }
+  .notes-container{
+    -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap:1em;
+  }
+  .drums-container{
+    -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap:1em;
+  }
+}
+

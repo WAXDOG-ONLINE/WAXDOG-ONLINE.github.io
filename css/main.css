@@ -1,0 +1,320 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+
+/*
+  FONTS -------------------
+*/
+
+@font-face {
+  font-family: 'HalvarBreitschrift';
+    src: url('../fonts/HalvarBreit-Blk.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/HalvarBreit-Blk.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/HalvarBreit-Blk.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/HalvarBreit-Blk.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/HalvarBreit-Blk.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'HalvarBreitschrift';
+    src: url('../fonts/HalvarBreit-Rg.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/HalvarBreit-Rg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/HalvarBreit-Rg.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/HalvarBreit-Rg.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/HalvarBreit-Rg.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'HalvarBreitschrift';
+    src: url('../fonts/HalvarBreit-Md.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/HalvarBreit-Md.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/HalvarBreit-Md.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/HalvarBreit-Md.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/HalvarBreit-Md.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight:500;
+    font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  position:relative;
+  font-family: Robotto, Arial, Helvetica, sans-serif;
+  background-color: black;
+  color:white;
+}
+
+img{
+  height: auto;
+  max-width:100%;
+}
+
+.img-corner{
+  border-radius: 0.3em;
+}
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+input, textarea{
+  background-color: black;
+  color:white;
+  border: solid white 0.05em;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  width: 100%;
+  margin-top:0.4em;
+}
+
+button{
+  background-color: black;
+  color:white;
+  border: solid white 0.05em;
+  padding: 0.8em;
+  border-radius: 10em;
+  width:fit-content;
+}
+
+button:hover{
+  background-color: white;
+  color:black;
+}
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+a{ 
+  color: white; 
+}
+
+/* This portion of code is drawn from https://www.w3schools.com/CSSref/sel_hover.php & https://www.w3schools.com/cssref/css_selectors.php */
+a:hover {color:#c7aed6}
+
+
+
+h1{ 
+  font-family: "HalvarBreitschrift", Arial, Helvetica,sans-serif;
+  margin:0; 
+  margin-bottom:-0.2em;
+  font-size: calc(1.6em + 4vw);
+  font-weight: 900;
+}
+
+h2 { 
+  font-family: "HalvarBreitschrift", Arial, Helvetica,sans-serif;
+  margin: 0em; 
+  margin-bottom:-0.3em;
+  font-size: calc(1em + 3vw);
+  font-weight: 500;
+}
+
+/* reference for the line https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
+h3 {
+  font-family: "HalvarBreitschrift", Arial, Helvetica,sans-serif;
+  font-weight: 500;
+  margin: 0em;
+  font-size: calc(1.2em + 1.5vw);
+  line-height: 0.1em;
+  border-bottom: 1px solid white; 
+  width: 100%;
+  margin: 1em 0 1em; 
+}
+h3 span { 
+   background: black; 
+   padding: 0 0.4em 0 0; 
+}
+
+.no-line{
+  border-bottom:none;
+}
+
+h4 { 
+  font-family: "Roboto Mono", sans-serif;;
+  font-size: calc(1em + 0.6vw);
+  margin: 0em; 
+  margin-bottom:0.2em;
+  font-weight: 400;
+  
+}
+h5 { 
+  font-family: "Roboto Mono", sans-serif;;
+  font-size: calc(0.8em + 0.6vw);
+  margin: 0em; 
+  margin-bottom:0.2em;
+  font-weight: 400;
+}
+h6{
+  font-size: calc(0.9em + 0.3vw);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #BDBDBD;
+  margin:0em;
+  margin-bottom:0.5em;
+}
+ul{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+p, label, button, ul{
+  margin:0em;
+  margin-bottom:0.2em;
+  font-size: calc(0.8em + 0.3vw);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.waxdog{
+  font-family: "Workbench", sans-serif;
+  font-size: calc(0.6em + 0.8vw);
+  font-weight: 400;
+  font-style: normal;
+}
+
+hr{
+  width:100%;
+  border: 0.04em solid white;
+}
+
+/*
+  HEADER -------------------
+*/
+
+
+header{
+  padding-bottom: calc(0.8em + 5vw);
+  padding-top: 4vw;
+  border-top: solid 0.05em;
+}
+
+header img{
+  object-fit: cover;
+  width:100%;
+  height:calc(5em + 18vw);
+  padding-left:18em;
+  margin-bottom: 5em;
+}
+
+.LAB-text {
+  padding-left:2.6em;
+}
+
+.header-right{
+  text-align: right;
+}
+.header-textbox{
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: flex-end;
+
+  width:100%;
+  position:absolute;
+  top:calc(5em + 18vw); 
+  left:0;
+  padding-left:3vw;
+  padding-right: 3vw;
+}
+
+@media screen and (max-width:64em){
+  header img{
+    padding-left: 0;
+  }
+  .header-right{
+    max-width: 55vw;
+  }
+  .header-textbox{
+    top:calc(6.5em + 18vw); 
+  }
+  
+}
+
+@media screen and (max-width:24em){
+  .header-textbox{
+    -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  top:calc(5em + 18vw); 
+  gap:0.5em;
+  }
+  .header-right{
+    max-width: 100%;
+    text-align: left;
+  }
+  header img{
+    margin-bottom: 7em;
+  }
+}
+
+
+/* Scroller learned from https://www.youtube.com/watch?v=iLmBy-HKIAw */
+
+@keyframes scroll{
+  to {
+    transform: translate(calc(-50% - 6rem));
+  }
+}
+
+.waxdogslider{
+  padding-block: calc(0.2em + 0.6vw);
+  width:100%;
+  overflow: hidden;
+  -webkit-mask: linear-gradient( 90deg, transparent, white 10%, white 90%, transparent);
+  mask: linear-gradient( 90deg, transparent, white 10%, white 90%, transparent);
+}
+
+.waxdoglist{
+  display: flex;
+  width: max-content;
+  flex-wrap: nowrap;
+  /* gap: calc(6em + 15vw); */
+  gap: 12em;
+  overflow: hidden;
+  animation: scroll 40s linear infinite;
+}
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+
+footer{
+  text-align:center;
+  font-size:0.8em;
+  margin-top:3em;
+}
+
+.gallery-img img {
+  border-radius:  0.5em;
+  margin-bottom: 0.5em;
+}
+
+.item-three{
+  border: solid white 0.05em;
+  border-radius: 0.5em;
+  padding: 2vw 1em 2vw 1em;
+  flex: 1;
+  min-width:10em;
+  height:auto;
+}
+
+
+
+
+footer{
+  margin-bottom: calc(3em + 5vw);
+}
