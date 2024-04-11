@@ -183,9 +183,10 @@ p a{
 
 
 header{
-  padding-bottom: calc(0.8em + 5vw);
+  padding-bottom: calc(0.8em + 4vw);
   padding-top: 4vw;
   border-top: solid 0.07em;
+  border-bottom: solid 0.07em ;
 }
 
 header img{
@@ -233,7 +234,9 @@ header img{
   .header-textbox{
     top:calc(6.5em + 18vw); 
   }
-  
+  header{
+    padding-bottom: calc(0.8em + 6vw)
+  }
 }
 
 @media screen and (max-width:24em){
@@ -252,6 +255,9 @@ header img{
   }
   header img{
     margin-bottom: 7em;
+  }
+  header{
+    padding-bottom: calc(1em + 8vw)
   }
 }
 
