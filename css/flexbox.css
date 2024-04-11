@@ -82,6 +82,7 @@ header{
   justify-content: space-between;
   
   gap:2em;
+  padding-top: calc(0.6em + 2vw);
 }
 
 .services-left{
