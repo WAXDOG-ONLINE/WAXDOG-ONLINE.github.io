@@ -301,6 +301,7 @@ footer{
 .gallery-img img {
   border-radius:  0.5em;
   margin-bottom: 0.5em;
+  width:100%;
 }
 
 .item-three{
