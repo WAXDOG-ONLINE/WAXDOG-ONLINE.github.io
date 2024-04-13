@@ -176,6 +176,9 @@ hr{
 p a{
   font-weight: 600;
 }
+p a:hover{
+  color: #ff9ce4;
+}
 
 /*
   HEADER -------------------
