@@ -164,7 +164,7 @@ p, label, button, ul{
 
 .waxdog{
   font-family: "Workbench", sans-serif;
-  font-size: calc(0.6em + 0.8vw);
+  font-size: calc(0.8em + 0.6vw);
   font-weight: 400;
   font-style: normal;
 }
